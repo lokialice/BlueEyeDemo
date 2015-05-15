@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61F254F21B06562800878887 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F254F11B06562800878887 /* AppDelegate.swift */; };
+		61F254F41B06562800878887 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F254F31B06562800878887 /* ViewController.swift */; };
+		61F254F71B06562800878887 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61F254F51B06562800878887 /* Main.storyboard */; };
+		61F254F91B06562800878887 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61F254F81B06562800878887 /* Images.xcassets */; };
+		61F254FC1B06562800878887 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61F254FA1B06562800878887 /* LaunchScreen.xib */; };
+		61F255081B06562900878887 /* BlueEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F255071B06562900878887 /* BlueEyeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61F255021B06562900878887 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61F254E41B06562800878887 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61F254EB1B06562800878887;
+			remoteInfo = BlueEye;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61F254EC1B06562800878887 /* BlueEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F254F01B06562800878887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F254F11B06562800878887 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61F254F31B06562800878887 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61F254F61B06562800878887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61F254F81B06562800878887 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		61F254FB1B06562800878887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		61F255011B06562900878887 /* BlueEyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueEyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F255061B06562900878887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F255071B06562900878887 /* BlueEyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueEyeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61F254E91B06562800878887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F254FE1B06562900878887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61F254E31B06562800878887 = {
+			isa = PBXGroup;
+			children = (
+				61F254EE1B06562800878887 /* BlueEye */,
+				61F255041B06562900878887 /* BlueEyeTests */,
+				61F254ED1B06562800878887 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61F254ED1B06562800878887 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61F254EC1B06562800878887 /* BlueEye.app */,
+				61F255011B06562900878887 /* BlueEyeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61F254EE1B06562800878887 /* BlueEye */ = {
+			isa = PBXGroup;
+			children = (
+				61F254F11B06562800878887 /* AppDelegate.swift */,
+				61F254F31B06562800878887 /* ViewController.swift */,
+				61F254F51B06562800878887 /* Main.storyboard */,
+				61F254F81B06562800878887 /* Images.xcassets */,
+				61F254FA1B06562800878887 /* LaunchScreen.xib */,
+				61F254EF1B06562800878887 /* Supporting Files */,
+			);
+			path = BlueEye;
+			sourceTree = "<group>";
+		};
+		61F254EF1B06562800878887 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61F254F01B06562800878887 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61F255041B06562900878887 /* BlueEyeTests */ = {
+			isa = PBXGroup;
+			children = (
+				61F255071B06562900878887 /* BlueEyeTests.swift */,
+				61F255051B06562900878887 /* Supporting Files */,
+			);
+			path = BlueEyeTests;
+			sourceTree = "<group>";
+		};
+		61F255051B06562900878887 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61F255061B06562900878887 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61F254EB1B06562800878887 /* BlueEye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61F2550B1B06562900878887 /* Build configuration list for PBXNativeTarget "BlueEye" */;
+			buildPhases = (
+				61F254E81B06562800878887 /* Sources */,
+				61F254E91B06562800878887 /* Frameworks */,
+				61F254EA1B06562800878887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueEye;
+			productName = BlueEye;
+			productReference = 61F254EC1B06562800878887 /* BlueEye.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61F255001B06562900878887 /* BlueEyeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61F2550E1B06562900878887 /* Build configuration list for PBXNativeTarget "BlueEyeTests" */;
+			buildPhases = (
+				61F254FD1B06562900878887 /* Sources */,
+				61F254FE1B06562900878887 /* Frameworks */,
+				61F254FF1B06562900878887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61F255031B06562900878887 /* PBXTargetDependency */,
+			);
+			name = BlueEyeTests;
+			productName = BlueEyeTests;
+			productReference = 61F255011B06562900878887 /* BlueEyeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61F254E41B06562800878887 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Macbook Pro MD102";
+				TargetAttributes = {
+					61F254EB1B06562800878887 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					61F255001B06562900878887 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 61F254EB1B06562800878887;
+					};
+				};
+			};
+			buildConfigurationList = 61F254E71B06562800878887 /* Build configuration list for PBXProject "BlueEye" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61F254E31B06562800878887;
+			productRefGroup = 61F254ED1B06562800878887 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61F254EB1B06562800878887 /* BlueEye */,
+				61F255001B06562900878887 /* BlueEyeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61F254EA1B06562800878887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F254F71B06562800878887 /* Main.storyboard in Resources */,
+				61F254FC1B06562800878887 /* LaunchScreen.xib in Resources */,
+				61F254F91B06562800878887 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F254FF1B06562900878887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61F254E81B06562800878887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F254F41B06562800878887 /* ViewController.swift in Sources */,
+				61F254F21B06562800878887 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F254FD1B06562900878887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F255081B06562900878887 /* BlueEyeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61F255031B06562900878887 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61F254EB1B06562800878887 /* BlueEye */;
+			targetProxy = 61F255021B06562900878887 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61F254F51B06562800878887 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61F254F61B06562800878887 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61F254FA1B06562800878887 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61F254FB1B06562800878887 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61F255091B06562900878887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61F2550A1B06562900878887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61F2550C1B06562900878887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlueEye/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		61F2550D1B06562900878887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlueEye/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		61F2550F1B06562900878887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BlueEyeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueEye.app/BlueEye";
+			};
+			name = Debug;
+		};
+		61F255101B06562900878887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BlueEyeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueEye.app/BlueEye";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61F254E71B06562800878887 /* Build configuration list for PBXProject "BlueEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F255091B06562900878887 /* Debug */,
+				61F2550A1B06562900878887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61F2550B1B06562900878887 /* Build configuration list for PBXNativeTarget "BlueEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F2550C1B06562900878887 /* Debug */,
+				61F2550D1B06562900878887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61F2550E1B06562900878887 /* Build configuration list for PBXNativeTarget "BlueEyeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F2550F1B06562900878887 /* Debug */,
+				61F255101B06562900878887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61F254E41B06562800878887 /* Project object */;
+}
